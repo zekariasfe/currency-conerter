@@ -59,6 +59,8 @@ const App = () => {
               Add to Favorites
             </button>
           </div>
+          
+
           <div className="space-y-4 bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
             <ConversionResult result={handleConversion()} baseCurrency={baseCurrency} targetCurrency={targetCurrency} />
             <FavoritePairs favorites={favorites} removeFavorite={removeFavorite} />
